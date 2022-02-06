@@ -1,0 +1,55 @@
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+   
+   margin: 0px;
+}
+
+.top-bar{
+    background-color: bisque;
+}
+
+header{
+    display: flex;
+    padding: 30px 30px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#search-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#search-input{
+    width: 400px;
+    height: 40px
+}
+
+.userDetails{
+    display: block; 
+    font-size: 20px;
+    padding-top: 0px;
+    background: #037ffc;
+
+}
+
+.userBlock{
+    max-width: 600px;
+    margin-top: 0px;
+    padding: 20px 0 20px;
+    margin: 0px auto;
+    
+}
+
+li{
+    text-decoration: none;
+    background: #fff;
+    padding: 10px 0px 10px;
+    margin-top: 10px;
+}
