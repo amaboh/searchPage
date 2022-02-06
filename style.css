@@ -2,23 +2,24 @@
 body{
     margin:0;
     font-family: 'Roboto', sans-serif;
+    padding: 0;
 }
 
 
 .container{
-   
+   width: 600px;
    margin: 0px;
+   margin-top: 20px;
+   background: #037ffc;
 }
 
 .top-bar{
     background-color: bisque;
-}
-
-header{
     display: flex;
     padding: 30px 30px;
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 500px;
+   
+    
 }
 
 #search-title{
@@ -32,24 +33,28 @@ header{
 }
 
 .userDetails{
-    display: block; 
+    
     font-size: 20px;
     padding-top: 0px;
-    background: #037ffc;
+    
 
 }
 
 .userBlock{
-    max-width: 600px;
+    display: block; 
+    
+    max-width: 500px;
     margin-top: 0px;
-    padding: 20px 0 20px;
+    padding: 10px 0 20px;
     margin: 0px auto;
     
 }
 
-li{
-    text-decoration: none;
+.userBlock .name{
+    list-style-type: none;
+    width: 100%;
     background: #fff;
-    padding: 10px 0px 10px;
+    padding: 10px 0px 0px 10px;
     margin-top: 10px;
+    
 }
